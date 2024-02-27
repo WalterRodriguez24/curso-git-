@@ -1,11 +1,13 @@
-hooa mundo 
+pipeline {
+  agent any
+  stages{
+      stage('Hola'){
+          echo "hola mundo"
+      }
+      stage('gaaa'){
+          bat "dir"
+      }
+  }
+}
 
-Prueba
-git hutssssss
 
-
-xd
-sssssssss
-
-
-comit
